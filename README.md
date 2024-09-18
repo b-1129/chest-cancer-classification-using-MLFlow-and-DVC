@@ -107,6 +107,6 @@ DVC
 
     AWS_REGION = 
 
-    AWS_ECR_LOGIN_URI = demo>>  058264445982.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = 058264445982.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = chestcancer

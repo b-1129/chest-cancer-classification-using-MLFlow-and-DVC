@@ -46,7 +46,7 @@ class Evaluation:
 
     def save_score(self):
         scores = {"loss": self.score[0], "accuracy": self.score[1]}
-        save_json(path=Path("score.json"), data=scores)
+        save_json(path=Path("scores.json"), data=scores)
 
     def log_into_mlflow(self):
         mlflow.set_registry_uri(self.config.mlflow_uri)
